@@ -1,9 +1,9 @@
 import {RouterModule, Routes} from "@angular/router";
-import {HomeComponent} from "./components/home-component";
 import {NotFoundComponent} from "./components/notfound-component";
+import {HomeComponent} from "./components/home-component";
 import {MapComponent} from "./components/map-component";
 
-export const allAppComponents = [HomeComponent, NotFoundComponent, MapComponent];
+export const allAppComponents = [NotFoundComponent, HomeComponent, MapComponent];
 
 export const routes: Routes = [
 	{path: "", component: HomeComponent},
