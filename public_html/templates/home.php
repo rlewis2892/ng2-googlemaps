@@ -12,8 +12,6 @@
 		<h1>{{ title }}</h1>
 
 		<!-- this creates a google map on the page with the given lat/lng from -->
-		<!-- the component as the initial center of the map: -->
-
 		<g-map></g-map>
 	</div>
 </section>
